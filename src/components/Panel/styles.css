@@ -1,0 +1,14 @@
+.panel {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.dropdown_container {
+  margin-left: auto;
+}
+
+.dropdown_container button:hover {
+  color: #f26989 !important;
+  border: 1px solid #f26989 !important;
+}

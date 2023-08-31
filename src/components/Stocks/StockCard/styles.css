@@ -1,0 +1,64 @@
+.card_container {
+  background: linear-gradient(
+    43deg,
+    rgba(0, 0, 0, 0.45) 50%,
+    rgba(9, 9, 121, 0.45) 100%
+  );
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.market_cap {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #f26989;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 117, 140, 0.5) 55%,
+    rgba(255, 126, 179, 0.5) 100%
+  );
+  padding: 7px 0px;
+  border-radius: 10px;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.market_cap .count {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.company_name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #b3b3b3;
+}
+
+.company_price {
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.price {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.company_symbol .symbol {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.company_row {
+  border: 1px solid transparent;
+  display: grid;
+  grid-template-columns: 1fr repeat(4, 3fr);
+  align-items: center;
+}
+
+.company_row:hover {
+  border: 1px solid white;
+}
