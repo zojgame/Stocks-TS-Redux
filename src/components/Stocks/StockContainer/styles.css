@@ -12,6 +12,7 @@
 }
 
 .stock_title {
+  width: 1000px;
   font-weight: 800;
   margin-bottom: 20px;
   display: grid;

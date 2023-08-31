@@ -54,6 +54,7 @@
 
 .company_row {
   border: 1px solid transparent;
+  width: 1000px;
   display: grid;
   grid-template-columns: 1fr repeat(4, 3fr);
   align-items: center;

@@ -27,7 +27,7 @@
     rgba(255, 117, 140, 0.5) 55%,
     rgba(255, 126, 179, 0.5) 100%
   );
-  border: 1px solid #f26989;
+  border: 3px solid #f26989;
 }
 
 .disabled {
