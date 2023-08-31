@@ -27,7 +27,6 @@ const Pagination = () => {
         }
     }
 
-
     return (
        <div className="pagination">
             <div className={`button previous${isDisabled ? ` disabled` : ''}`} onClick={handlePrevClick}>prev</div>

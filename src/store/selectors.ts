@@ -1,4 +1,3 @@
-
 import { StockType, State } from "../types"
 import { REDUCERS } from "../consts"
 
